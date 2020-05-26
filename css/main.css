@@ -106,7 +106,8 @@ h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
 h1.md-heading, h2.md-heading, h3.md-heading {
     color: var(--primary-color);
-    font-size: 3rem; }
+    font-size: 3rem; 
+}
 h1.sm-heading, h2.sm-heading, h3.sm-heading {
     font-size: 2rem;
     margin-bottom: 3rem;
@@ -261,6 +262,12 @@ select{
 
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+    .off-balance {
+        padding-left: 18%;
+    }
+    .center {
+        padding-right: 15%;
+    }
     body#bg-img:after {
         content: '';
         position: absolute;
@@ -279,6 +286,12 @@ select{
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
+    .off-balance {
+        padding-left: 18%;
+    }
+    .center {
+        padding-right: 15%;
+    }
     .contact {
         padding-top: 10%;
     }
@@ -300,6 +313,12 @@ select{
 }
 
 @media screen and (max-width: 500px) {
+    .off-balance {
+        padding-left: 18%;
+    }
+    .center {
+        padding-right: 15%;
+    }
     .contact {
         padding-top: 10%;
     }
