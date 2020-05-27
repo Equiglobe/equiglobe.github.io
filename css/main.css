@@ -144,7 +144,7 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
     box-shadow: 0 8px 16px 0 var(--nightlight-color);
 }
 .about-info .bio {
-    font-size: 1.25rem; 
+    font-size: 1rem; 
     padding-right: 10%;
 }
 
