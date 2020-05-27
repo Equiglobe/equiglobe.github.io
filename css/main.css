@@ -144,10 +144,26 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
     box-shadow: 0 8px 16px 0 var(--nightlight-color);
 }
 .about-info .bio {
-
     font-size: 1.25rem; 
     padding-right: 10%;
 }
+
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    padding-right: 10%;
+}
+.team-members img {
+    height: 200px;
+    width: 200px;
+    border: 1px var(--secondary-color) solid;
+}
+
+.team-members img:hover {
+    opacity: 0.5;
+    border-color: var(--secondary-color);
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
 
 .team-pics {
     float: right;
@@ -266,6 +282,17 @@ select{
 
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+    .team-members {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .team-members img {
+        height: 400px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+    }
     .off-balance {
         padding-left: 18%;
     }
@@ -294,6 +321,17 @@ select{
 }
 
 @media screen and (min-width: 501px) and (max-width: 768px) {
+    .team-members {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .team-members img {
+        height: 400px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+    }
     .off-balance {
         padding-left: 18%;
     }
@@ -325,6 +363,17 @@ select{
 }
 
 @media screen and (max-width: 500px) {
+    .team-members {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .team-members img {
+        height: 400px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 5%;
+    }
     .off-balance {
         padding-left: 18%;
     }
