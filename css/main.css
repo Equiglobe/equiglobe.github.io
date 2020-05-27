@@ -158,7 +158,10 @@ h1.sm-heading, h2.sm-heading, h3.sm-heading {
     width: 200px;
     border: 1px var(--secondary-color) solid;
 }
-
+.member-container {
+    text-align: center;
+    margin-bottom: 10%;
+}
 .team-members img:hover {
     opacity: 0.5;
     border-color: var(--secondary-color);
@@ -291,7 +294,6 @@ select{
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        margin-bottom: 5%;
     }
     .off-balance {
         padding-left: 18%;
@@ -333,7 +335,6 @@ select{
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        margin-bottom: 5%;
     }
     .off-balance {
         padding-left: 18%;
@@ -378,7 +379,6 @@ select{
         margin-left: auto;
         margin-right: auto;
         margin-top: auto;
-        margin-bottom: 5%;
     }
     .off-balance {
         padding-left: 18%;
